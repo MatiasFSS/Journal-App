@@ -1,8 +1,3 @@
-# React + Vite
+# JOURNAL APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pagina que permite al usuario que se autentifica a través correo/contraseña o inicia sesión con Google pueda crear notas (CRUD) y cargar imágenes, para esto se utiliza Firebase para la autentificación del usuario y Firestore para guardar los datos de las notas, para guardar las imágenes cargadas por el usuario se utiliza Cloudinary.

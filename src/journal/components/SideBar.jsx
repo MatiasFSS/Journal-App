@@ -8,7 +8,7 @@ export const SideBar = ({drawerWith = 240}) => {
     const {displayName} = useSelector(state => state.auth)
     const {notes} = useSelector(state => state.journal)
 
-    console.log(notes)
+    // console.log(notes)
     
 
   return (
